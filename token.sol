@@ -972,7 +972,7 @@ contract PepeDuck is Context, IERC20, Ownable {
             _liquidityFee > 0
         ) {
             contractTokenBalance = numTokensSellToAddToLiquidity;
-            //add liquidity and send bnb to marketing wallet
+            //add liquidity and send eth to marketing wallet
             swapAndLiquify(contractTokenBalance);
         }
         
